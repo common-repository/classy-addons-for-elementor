@@ -1,0 +1,208 @@
+.classyea-search-toggler-wrapper button:focus {
+  outline: none;
+}
+
+.classyea-search-toggler-wrapper button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.classyea-serach-button-style1 {
+  position: relative;
+  display: block;
+}
+.classyea-serach-button-style1 .classyea-search-toggler {
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 50px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 400;
+  cursor: pointer;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.5s ease;
+}
+.classyea-serach-button-style1 .classyea-search-toggler:hover {
+  color: var(--thm-base);
+}
+.classyea-search-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  visibility: hidden;
+  opacity: 0;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.9);
+  -webkit-transform: translateY(101%);
+  -ms-transform: translateY(101%);
+  transform: translateY(101%);
+  transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+}
+.classyea-search-popup.popup-visible {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+.classyea-search-popup .classyea-overlay-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+.classyea-search-popup .classyea-close-search {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  background-image: url(../../images/icon-cross.png);
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+  transition: all 0.5s ease;
+}
+
+.classyea-search-popup .classyea-search-form {
+  position: relative;
+  padding: 0 15px 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+  z-index: 10;
+}
+.classyea-search-popup.popup-visible .classyea-search-form {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  transition: all 0.5s ease 0.5s;
+  -moz-transition: all 0.9s ease 0.5s;
+  -webkit-transition: all 0.9s ease 0.5s;
+  -ms-transition: all 0.9s ease 0.5s;
+  -o-transition: all 0.9s ease 0.5s;
+}
+.classyea-search-popup .classyea-search-form .form-group {
+  margin-bottom: 30px;
+}
+.classyea-search-popup .classyea-search-form fieldset {
+  position: relative;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+}
+.classyea-search-popup .classyea-search-form fieldset input[type="search"] {
+  position: relative;
+  height: 70px;
+  padding: 20px 250px 20px 30px;
+  background: #fff;
+  line-height: 30px;
+  font-size: 24px;
+  color: #233145;
+  border-radius: 7px;
+  width: 100%;
+}
+.classyea-search-popup .classyea-search-form fieldset input[type="submit"] {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  text-align: center;
+  width: 220px;
+  height: 70px;
+  padding: 20px 10px 20px 10px;
+  color: #fff !important;
+  line-height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 0 7px 7px 0;
+  background: #cd2653;
+  border:0px solid gray;
+  text-decoration: none;
+}
+.classyea-search-popup .classyea-search-form fieldset input[type="submit"]:hover {
+  transform: translateY(0);
+}
+.classyea-search-popup h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  display: none;
+}
+.classyea-search-popup .recent-searches {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  display: none;
+}
+.classyea-search-popup .recent-searches li {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+.classyea-search-popup .recent-searches li a {
+  display: block;
+  line-height: 24px;
+  border: 1px solid #fff;
+  padding: 7px 15px;
+  color: #fff;
+  border-radius: 3px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.classyea-search-popup .recent-searches li a:hover {
+  border-color: #20bad1;
+  background-color: #20bad1;
+}
+.classyea-serach-button-style1--instyle2 {
+  margin-left: 30px;
+}
+.classyea-serach-button-style1--instyle2 .classyea-search-toggler {
+  width: 50px;
+  height: 50px;
+  color: #818891;
+  border-left: 0 solid;
+}
+.classyea-serach-button-style1--instyle2 .classyea-search-toggler:hover {
+  color: #cd2653;
+}
+
+.classyea-search-toggler-wrapper  [type=button],.classyea-search-toggler-wrapper button {
+  background-color: unset;
+  border: 0px solid gray;
+  padding: 0;
+}
+
+.classyea-search-toggler-wrapper  [type=button]:hover,
+.classyea-search-toggler-wrapper  [type=button]:focus {
+  background-color: unset;
+  padding: 0;
+  outline: none;
+}

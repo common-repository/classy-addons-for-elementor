@@ -1,0 +1,29 @@
+.classyea-countdown > div {
+    display: flex;
+    text-align: center;
+}
+.classyea-countdown .countitem-number{
+    font-size: 40px;
+    color: #293e9c;
+    font-weight: 900;
+}
+.classyea-countdown .countitem-title{
+    display: block;
+    color: grey;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.countitem {
+    width: 25%;
+}
+.classyea-countdown-box.layout-2 .countitem {
+    border-right: 1px solid rgba(255,255,255,.3);
+}
+.classyea-countdown-box.layout-2 .countitem:last-child {
+    border-right: 0;
+}
+
+.classyea-countdown-box .classyea-countdown:before {
+    content: "";
+}

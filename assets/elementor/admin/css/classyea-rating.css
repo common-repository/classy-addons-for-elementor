@@ -1,0 +1,78 @@
+.classyea-review-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: #fff;
+    padding: 20px 40px 40px 40px;
+    margin-top: 15px;
+    border-radius: 3px 3px 0 0;
+}
+.classyea-review-wrap h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.classyea-review-wrap p { 
+    font-size: 16px;
+}
+
+.void-review-btn {
+    padding-top: 15px;
+}
+.classyea-review-content {
+    font-size: 14px;
+}
+
+.void-review-btn a {
+    text-decoration: none;
+    color:#222;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.void-review-btn .classyea-btn-danger {
+
+    border-color: #222;
+    color: #222;
+    padding: 12px 15px;
+    background: transparent;
+    border: 1px solid #222;
+}
+
+.void-review-btn .classyea-void-grid-review-done {
+    color: #0b188a;
+    padding: 12px 15px;
+    background: transparent;
+    border: 1px solid #0b188a;
+}
+
+.void-review-btn .classyea-remind-me-btn {
+    color: #0b188a;
+    padding: 12px 15px;
+    background: transparent;
+    border: 1px solid #0b188a;
+}
+
+.void-review-btn .classyea-rated-btn {
+    color: #0b188a;
+    padding: 12px 15px;
+    background: transparent;
+    border: 1px solid #0b188a;
+}
+
+.classyea-review-wrap .classyea-rated-btn {
+    width: 100%;
+    padding: 12px 25px;
+    background: #09198A;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0.2em;
+    border-radius: 4px;
+}
+#adminmenu .toplevel_page_classyea-settings .wp-menu-image img {
+    padding: 0;
+    margin-top: 7px;
+    opacity: 1;
+    width: 25px;
+    height: 21px!important;
+}
+

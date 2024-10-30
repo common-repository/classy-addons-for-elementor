@@ -1,0 +1,37 @@
+.classyea-deactivate-dialog
+{
+	text-align: left;
+	width: auto;
+}
+
+.classyea-deactivate-dialog-buttons
+{
+	text-align: right;
+}
+
+.classyea-deactivate-dialog
+{
+	width: auto !important;
+}
+
+.classyea-deactivate-dialog h2
+{
+	color: gray;
+	font-size: 1.2em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid lightgray;
+	
+}
+
+.classyea-deactivate-dialog input[name="comments"]
+{
+	width: 380px;
+	width: 380px;
+    border: none;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 55px;
+}
+.classyea-deactivate-reasons li {
+    padding: 3px 0;
+}

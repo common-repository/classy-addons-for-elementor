@@ -1,0 +1,37 @@
+.deactivate-wrapper-area
+{
+	text-align: left;
+	width: auto;
+}
+
+.deactivate-wrapper-area-buttons
+{
+	text-align: right;
+}
+
+.deactivate-wrapper-area
+{
+	width: auto !important;
+}
+
+.deactivate-wrapper-area h2
+{
+	color: gray;
+	font-size: 1.2em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid lightgray;
+	
+}
+
+.deactivate-wrapper-area input[name="comments"]
+{
+	width: 380px;
+	width: 380px;
+    border: none;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 55px;
+}
+.classyea-deactivate-reasons li {
+    padding: 3px 0;
+}

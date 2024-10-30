@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'classyicon';
+  src:  url('fonts/classyicon.eot?5mba9f');
+  src:  url('fonts/classyicon.eot?5mba9f#iefix') format('embedded-opentype'),
+    url('fonts/classyicon.ttf?5mba9f') format('truetype'),
+    url('fonts/classyicon.woff?5mba9f') format('woff'),
+    url('fonts/classyicon.svg?5mba9f#classyicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.classyicon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'classyicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.classyea-accordion:before {
+  content: "\e900";
+}
+.classyea-business-hour:before {
+  content: "\e901";
+}
+.classyea-contact-form:before {
+  content: "\e902";
+}
+.classyea-counter-up:before {
+  content: "\e903";
+}
+.classyea-flip-box:before {
+  content: "\e904";
+}
+.classyea-image-accordion:before {
+  content: "\e905";
+}
+.classyea-image-compare:before {
+  content: "\e906";
+}
+.classyea-image-filter:before {
+  content: "\e907";
+}
+.classyea-service-box:before {
+  content: "\e908";
+}
+.classyea-team:before {
+  content: "\e909";
+}
+.classyea-testimonial:before {
+  content: "\e90a";
+}
+
+.classyea-animated-headline:before {
+  content: '\e8a0';
+}
+.classyea-pricing-table:before {
+  content: "\e904";
+}
+.classyea-progress-bar:before {
+  content: "\e904";
+}
+.classyea-countdown:before {
+  content: "\e904";
+}
+
+.elementor-add-section-area-button.classyea-add-template-button img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}

@@ -1,0 +1,35 @@
+#elementor-panel-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+#elementor-panel-category-classyea {
+    order: -1;
+}
+
+#elementor-panel-category-basic {
+    order: -1;
+}
+
+i.classyicon::after,
+i.classyea::after,
+#elementor-panel-category-classyea .elementor-element .icon::before,
+#elementor-panel-category .elementor-element .icon::before {
+    content: "";
+    background-image: url(classyeaicon.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    font-size: 24px;
+    opacity: 0.5;
+}
+
+i.classyicon:hover::after,
+i.classyea:hover::after,
+#elementor-panel-category-classyea .elementor-element:hover .icon::before,
+#elementor-panel-category .elementor-element:hover .icon::before {
+    opacity: 1;
+}

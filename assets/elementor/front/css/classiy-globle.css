@@ -1,0 +1,95 @@
+
+/* law firm widgets mailchimp css custom */
+
+.form-mailchimp .mc4wp-form input[type="text"], .form-mailchimp .mc4wp-form input[type="email"]{
+	background: #f7f7f7;
+	width: 100%;
+	height: 60px;
+	border-radius: 14px;
+	padding-left: 20px;
+	border: #f7f7f7;
+	font-size: 14px;
+	color: #483949;
+}
+
+.form-mailchimp .mc4wp-form input[type="text"]:placeholder, .form-mailchimp .mc4wp-form input[type="email"]:placeholder{
+	font-size: 14px;
+	opacity: 1;
+	color: #999;
+}
+
+
+.form-mailchimp .mc4wp-form input[type="text"]:focus, .form-mailchimp .mc4wp-form input[type="email"]:focus{
+	outline: 0;
+	border: 0;
+	box-shadow: none;
+}
+
+
+.form-mailchimp .mc4wp-form input[type="submit"]{
+	width: 100%;
+	line-height: 60px;
+	text-align: center;
+	padding: 0;
+	background: #483949;
+	color: #fff;
+	border-radius: 14px;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+
+
+.form-mailchimp .mc4wp-form input[type="submit"]:hover{
+	background: #E09A2A;
+}
+/* law firm widgets mailchimp css custom */
+
+
+
+.faq-service-hover:hover .elementor-widget-text-editor .elementor-widget-container,
+.faq-service-hover:hover .title-hover .elementor-heading-title{
+	color:#fff !important;
+}
+
+
+.image-item-box .elementor-image-box-img img{
+	padding: 25px;
+	width: 142px;
+}
+
+.image-item-box .elementor-image-box-wrapper{
+	align-items: center !important;
+}
+
+.image-item-box .elementor-image-box-img{
+	position: relative;
+}
+
+.image-item-box .elementor-image-box-img::before{
+	position: absolute;
+	content:"01";
+	right: 0;
+	top: 0;
+	background: #fff;
+	color: #483949;
+	height:30px;
+	width: 30px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 12px;
+	line-height: 30px;
+	
+}
+
+
+.banner-marquee{
+	transform: rotate(-2deg);
+	margin-right: -15px;
+}
+
+.page-template{
+	overflow-x: hidden;
+}

@@ -1,0 +1,14 @@
+{
+    "name": "classy-addons-for-elementor/classyea",
+    "description": "A plugin for Classy Addon of Elementor",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ClassyEa\\Helper\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}

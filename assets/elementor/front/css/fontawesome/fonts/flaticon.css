@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?63c0bf62acc7c673609fac7097ca6f4f") format("truetype"),
+url("./flaticon.woff?63c0bf62acc7c673609fac7097ca6f4f") format("woff"),
+url("./flaticon.woff2?63c0bf62acc7c673609fac7097ca6f4f") format("woff2"),
+url("./flaticon.eot?63c0bf62acc7c673609fac7097ca6f4f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?63c0bf62acc7c673609fac7097ca6f4f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-model:before {
+    content: "\f101";
+}
+.flaticon-boxes:before {
+    content: "\f102";
+}
+.flaticon-arrow-down:before {
+    content: "\f103";
+}
+.flaticon-down-arrow:before {
+    content: "\f104";
+}
+.flaticon-right-arrow-angle:before {
+    content: "\f105";
+}
+.flaticon-down-chevron:before {
+    content: "\f106";
+}
+.flaticon-selection:before {
+    content: "\f107";
+}
+.flaticon-select:before {
+    content: "\f108";
+}
+.flaticon-building:before {
+    content: "\f109";
+}
+.flaticon-apartment:before {
+    content: "\f10a";
+}
+.flaticon-office:before {
+    content: "\f10b";
+}
+.flaticon-apartment-1:before {
+    content: "\f10c";
+}
+.flaticon-apartment-2:before {
+    content: "\f10d";
+}
+.flaticon-apartment-3:before {
+    content: "\f10e";
+}
+.flaticon-parking:before {
+    content: "\f10f";
+}
+.flaticon-car-parking:before {
+    content: "\f110";
+}
+.flaticon-car-park:before {
+    content: "\f111";
+}
+.flaticon-parking-lot:before {
+    content: "\f112";
+}
+.flaticon-phone-call:before {
+    content: "\f113";
+}
+.flaticon-phone:before {
+    content: "\f114";
+}
+.flaticon-call:before {
+    content: "\f115";
+}
+.flaticon-menu:before {
+    content: "\f116";
+}
+.flaticon-line-1:before {
+    content: "\f117";
+}
+.flaticon-water-waves:before {
+    content: "\f118";
+}
+.flaticon-safe:before {
+    content: "\f119";
+}
+.flaticon-shield:before {
+    content: "\f11a";
+}
+.flaticon-security:before {
+    content: "\f11b";
+}
+.flaticon-shopping-cart:before {
+    content: "\f11c";
+}
+.flaticon-shopping-cart-1:before {
+    content: "\f11d";
+}
+.flaticon-notification:before {
+    content: "\f11e";
+}
+.flaticon-bell:before {
+    content: "\f11f";
+}
+.flaticon-spa:before {
+    content: "\f120";
+}
+.flaticon-flower:before {
+    content: "\f121";
+}
+.flaticon-conference:before {
+    content: "\f122";
+}
+.flaticon-conference-room:before {
+    content: "\f123";
+}
+.flaticon-maps-and-flags:before {
+    content: "\f124";
+}
+.flaticon-map:before {
+    content: "\f125";
+}
+.flaticon-location:before {
+    content: "\f126";
+}
+.flaticon-map-1:before {
+    content: "\f127";
+}
+.flaticon-user:before {
+    content: "\f128";
+}
+.flaticon-pulse:before {
+    content: "\f129";
+}
+.flaticon-pulse-rate:before {
+    content: "\f12a";
+}
+.flaticon-check:before {
+    content: "\f12b";
+}
+.flaticon-tick:before {
+    content: "\f12c";
+}
+.flaticon-check-1:before {
+    content: "\f12d";
+}
+.flaticon-restaurant:before {
+    content: "\f12e";
+}
+.flaticon-parking-1:before {
+    content: "\f12f";
+}
+.flaticon-hospital:before {
+    content: "\f130";
+}
+.flaticon-bananas:before {
+    content: "\f131";
+}
+.flaticon-fruit:before {
+    content: "\f132";
+}
